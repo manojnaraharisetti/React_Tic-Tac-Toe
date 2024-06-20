@@ -5,7 +5,7 @@ export default function Message({ message, onNewGame }) {
     <div>
        <div className={`msg-container ${message ? "" : "hide"}`}>
       <p>{message}</p>
-      <button onClick={onNewGame} id="reset-btn">New Game</button>
+      {/* <button onClick={onNewGame} id="reset-btn">New Game</button> */}
     </div>
     </div>
   )
